@@ -1,0 +1,55 @@
+#right-column {
+width: 50%;
+}
+
+#left-column {
+width: 50%;
+margin-right: 2%;
+}
+
+hr, .technologies {
+    margin: 2%;
+}
+
+h3 {
+    padding-top: 4%;
+}
+
+.technologies {
+    opacity: 0.6;
+}
+
+a:hover {
+    color:red;
+}
+
+.flex-container {
+    padding-bottom: 5%;
+}
+
+.card-paragraphs {
+    padding-bottom: 3%;
+}
+
+@media (max-width: 426px){
+    .flex-container {
+        flex-direction: column;
+    }
+    #left-column, #right-column {
+      margin-right: 0%;
+      width: 100%;
+    }
+    .card-paragraphs {
+        padding-bottom: 5%;
+        font-size: 13px;
+    }
+
+    h3, .card-sub-header {
+        padding-left: 5%;
+    }
+
+    hr {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

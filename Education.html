@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/global-styles.css">
+    <link rel="stylesheet" href="/styles/Education.css">
+    <link rel="icon" href="./resources/J.png">
+    <script src="./functionality/navigation.js"></script>
+    <title>My Education</title>
+</head>
+
+<body>
+    <button onclick="goHome()" class="home-button">Home</button>
+
+    <h1 style="text-align: center;font-size: 36px;">EDUCATION</h1>
+
+    <div class="flex-container">
+        <!--Left column-->
+        <div id='left-column'>
+
+            <div class="cards left-cards">
+                <img src="/resources/strawberry_crest.jpg" alt="High School" width="100%">
+                <h3>Strawberry Crest High School</h3>
+
+                <p class="card-sub-header">
+                    Weighted GPA: <span class="gpa">5.99</span>
+                    <br>
+                    Unweighted GPA: <span class="gpa">3.32</span>
+                </p>
+                <p class="card-paragraphs">
+                    I attended the International Baccalaureate program at Strawberry Crest High School. While at
+                    Strawberry Crest, I was involved in the Interact club (a community service club), the National
+                    Honor Society, the French Honor Society and a few other sport clubs. I graduated in
+                    May 31<sup>st</sup>, 2019.
+                </p>
+            </div>
+        </div>
+
+        <!--Right column-->
+        <div id='right-column'>
+            <div class="cards right-cards">
+                <img id="ucf" src="/resources/UCF.jpg" alt="" width="100%">
+                <h3>University of Central Florida</h3>
+
+                <p class="card-sub-header">GPA: <span class="gpa">4.00</span></p>
+                <p class="card-paragraphs">
+                    Attended UCF for a year, from June 2019 to May 2020. While at UCF, I did not know what I
+                    wanted to study, so I was bouncing between Health science and Biology. In the fall semester,
+                    I took an Introduction to Programming with C course, I ended up loving programming and decided
+                    I wanted to study computer science. I then transferred to USF, because it was located in my
+                    home city and closer to home.
+                </p>
+            </div>
+
+            <div class="cards right-cards">
+                <img src="/resources/USF.jpg" alt="University of South Florida" class="USF" width="100%">
+                <h3>University of South Florida</h3>
+
+                <p class="card-sub-header">GPA: <span class="gpa">3.95</span></p>
+                <p class="card-paragraphs">
+                    My major at USF is Information science with a concentration in Web Technologies. Due to COVID,
+                    I haven't been able to fully get involved with student organizations, however I'm a
+                    member of the Society of Hipanic Professional Engineers (SHPE). The main focus of This organization
+                    is the professional development of it's members.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer, same for all pages-->
+    <footer>
+        <button onclick="sendEmail()">Email Me</button> &nbsp;&nbsp;&nbsp;
+        <button onclick="goToGithub()">Github Profile</button>
+        <br><br>
+        <button onclick="goToLinkedin()">LinkedIn</button> &nbsp;&nbsp;&nbsp;
+        <button onclick="goToResume()">Resume</button>
+    </footer>
+</body>
+
+</html>

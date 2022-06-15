@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 3%; 
+    padding-top: 15%;
+}
+
+button {
+    position: relative;
+    left: 47%;
+    margin-top: 40px;
+    visibility: hidden;
+}
+
+@media (max-width: 425px){
+    #header1 { font-size: 19px;}
+
+    button {left: 34%; }
+}

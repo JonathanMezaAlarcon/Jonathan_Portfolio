@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/global-styles.css">
+    <link rel="stylesheet" href="/styles/Projects.css">
+    <link rel="icon" href="./resources/J.png">
+    <script src="./functionality/navigation.js"></script>
+    <title>Projects</title>
+</head>
+
+<body>
+    <button onclick="goHome()" class="home-button">Home</button>
+    <h1 style="text-align: center;font-size: 36px;">PROJECTS</h1>
+    <p style="text-align:center;">Last updated: <span class="heading-span">&nbsp; May 28, 2021 &nbsp;</span></p>
+    <p style="text-align:center;">The source code for all the following projects can be found in my GitHub account</p>
+
+    <div class="flex-container">
+        <!--Left column-->
+        <div id='left-column'>
+            <div class="cards">
+                <h3>ONLINE PORTFOLIO</h3>
+                <hr>
+                <p class="card-sub-header">Ongoing,<span class="technologies">HTML, CSS, JavaScript</span></p>
+
+                <p class="card-paragraphs">
+                    A work in progress. I created this project to showcase my skills to potiential employers, I am
+                    constantly improving my portfolio depending on the skills that I may know
+                    at a given point in time. This project will evolve as I learn other tools and improve my design
+                    skills. The website that you're on right now is the improved version of this proejct, if you want to
+                    see how the previous version of my online portfolio looked like,
+                    <a href="https://jonathanmezaalarcon.github.io/Personal-Website/index.html" target="_blank">click
+                        here</a>.
+                </p>
+            </div>
+            <div class="cards">
+                <h3>SHPE WEBSITE</h3>
+                <hr>
+                <p class="card-sub-header">Ongoing,<span class="technologies">HTML, CSS, JavaScript, Bootstrap</span>
+                </p>
+
+                <p class="card-paragraphs">
+                    I’m part of SHPEUSF’s tech committee, and a responsibility of mine is to maintain the website. My
+                    contribution to this project is making the website mobile friendly and improving the visual design
+                    of the site.
+                    <a href="http://SHPEUSF.com" target="_blank">Click here</a> to see the website.
+                </p>
+            </div>
+
+        </div>
+
+        <!--Right column-->
+        <div id='right-column'>
+
+            <div class="cards">
+                <h3>HACKABULL COMPETITION</h3>
+                <hr>
+                <p class="card-sub-header">Spring 2021,<span class="technologies">HTML, CSS, JavaScript</span></p>
+
+                <P class="card-paragraphs">
+                    Created a web app called Organize4Me for my very first Hackathon competition, HackaBull. Organize4Me
+                    is a tool that aids students organize their course work, course lectures, and assignments. It also
+                    provided a feature that allowed students to use the known Pomodoro learning technique.
+                    <a href="https://optimistic-spence-06c9d8.netlify.app/landing_page/" target="_blank">Click here</a>
+                    to see the website.
+                </P>
+            </div>
+
+            <div class="cards">
+                <h3>MIPS PROCESSOR SIMULATOR</h3>
+                <hr>
+                <p class="card-sub-header">Spring 2020,<span class="technologies">C</span></p>
+
+                <p class="card-paragraphs">
+                    This was the final project of my CDA 3103 Computer Logic and organization course.
+                    This project was completed in a group of 3, each one of the group members was in
+                    charge of different functions of the project. The project required us
+                    to simulate the datapath of the MIPS processor, based on the different instructions
+                    the program was given (in binary) it should execute different actions.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer, same for all pages-->
+    <footer>
+        <button onclick="sendEmail()">Email Me</button> &nbsp;&nbsp;&nbsp;
+        <button onclick="goToGithub()">Github Profile</button>
+        <br><br>
+        <button onclick="goToLinkedin()">LinkedIn</button> &nbsp;&nbsp;&nbsp;
+        <button onclick="goToResume()">Resume</button>
+    </footer>
+</body>
+
+</html>

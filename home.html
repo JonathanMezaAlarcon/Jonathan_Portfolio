@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="icon" href="./resources/J.png">
+    <link rel="stylesheet" href="./styles/global-styles.css">
+    <script src="./functionality/navigation.js"></script>
+    <title>Hi, I'm Jonathan</title>
+</head>
+
+<body>
+
+    <h1>MY ONLINE PORTFOLIO</h1>
+    <p style="text-align:center; padding-bottom: 3%;">Web portfolio of <span class="heading-span">&nbsp;Jonathan
+            Meza&nbsp;</span></p>
+
+    <div class="flex-container">
+        <!--Left column-->
+        <div id='left-column'>
+            <div class="cards left-cards">
+                <img src="/resources/code_image.jpg" alt="Image of Code" width="100%" height="350px">
+                <h3>PROJECTS</h3>
+
+                <p class="card-paragraphs">
+                    From the very first project I did for my Introduction to programming with C course to the latest
+                    project I have done, everything I’ve done can be found here. In this page, you will see how I went
+                    from learning my first programming language, to the general concepts of programming, to eventually
+                    focusing on the web development concentration.
+                </p>
+
+                <button class="card-button" onclick="goToProjects()">Go to Projects</button>
+            </div>
+
+            <div class="cards left-cards">
+                <img src="/resources/education.jpg" alt="Books" width="100%" height="350px">
+                <h3>EDUCATION</h3>
+
+                <p class="card-paragraphs">
+                    My goal for creating this website is to showcase my skills to potential employers. I understand that
+                    some companies want to hire candidates that attended top universities and show responsibility by
+                    maintaining good grades in school, so I created this page for those companies. In this page, you
+                    will see my academic history going all the way back to my pre-high school years.
+                </p>
+
+                <button class="card-button" onclick="goToEducation()">Go To Education</button>
+            </div>
+        </div>
+
+        <!--Right column-->
+        <div id='right-column'>
+            <div class="cards right-cards">
+                <img id='jonathan' src="/resources/pfp.jpg" alt="Picture of me" width="100%" height="100%">
+                <h4>About Me</h4>
+
+                <p class="card-paragraphs">not written yet</p>
+            </div>
+
+            <div class="cards right-cards">
+                <h4 class="grey-background">Extracurricular</h4>
+                <ul>
+                    <li>Dean's List</li>
+                    <li>MASA Social Chair</li>
+                    <li>SHPE Tech Committee Memeber</li>
+                    <li>TheDream.US Scholarship Recipient</li>
+                </ul>
+            </div>
+
+            <div class="cards right-cards">
+                <h4 class="grey-background">Skills</h4>
+                <p class="skills-par">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>PHP</span>
+                    <span>SQL</span>
+                    <span>MySQL</span>
+                    <span>NodeJs</span>
+                    <span>Git</span>
+                    <span>Bootstrap</span>
+                    <span>Bilingual</span>
+                    <span>Linux Familiar</span>
+                    <span></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer, same for all pages-->
+    <footer>
+        <button onclick="sendEmail()">Email Me</button> &nbsp;&nbsp;&nbsp;
+        <button onclick="goToGithub()">Github Profile</button>
+        <br><br>
+        <button onclick="goToLinkedin()">LinkedIn</button> &nbsp;&nbsp;&nbsp;
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+#left-column {
+    margin-right: 8%;
+    width: 45%;
+    float: left;
+  }
+  
+#right-column {
+    width: 45%;
+    float: right;
+}
+
+h1 {
+    padding-bottom: 3%;
+}
+
+.card-paragraphs {
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+.gpa {
+    opacity: 0.6;
+}
+
+@media (max-width: 426px){
+    h1 {font-size: 23px;}
+    .flex-container {
+      flex-direction: column;
+    }
+
+    #left-column, #right-column {
+      margin-right: 0%;
+      width: 100%;
+    }
+
+    .card-paragraphs {
+      padding-bottom: 5%;
+      font-size: 13px;
+  }
+
+  h3, .card-sub-header {
+      padding-left: 5%;
+  }
+
+  #ucf {
+    height: 170px;
+  }
+}
